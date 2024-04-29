@@ -4,7 +4,7 @@ class Shoe:
     def __init__(self, brand, size):
         self.brand = brand
         self._size = size
-        self.condition = None
+        # self.condition = None #why dont we create it in the attribute? we are creating a new attributes
         
     
     @property
